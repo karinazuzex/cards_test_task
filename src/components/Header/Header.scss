@@ -9,6 +9,7 @@
     color: #ddefe3;
     font-weight: bold;
     margin-right: 30px;
+    user-select: none; 
   }
   button {
     background: transparent;
@@ -25,6 +26,7 @@
     font-weight: bold;
     outline: none;
     margin: 0px 10px;
+    user-select: none; 
     &:hover {
       background: #cf4950;
       color: #ddefe3;
