@@ -1,0 +1,17 @@
+.Footer {
+  padding: 0px 20px;
+  height: 50px;
+  background-color: #2b484e63;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  div {
+    font-size: 25px;
+    color: #ddefe3;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+}

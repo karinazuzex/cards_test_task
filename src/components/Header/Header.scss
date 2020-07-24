@@ -1,0 +1,36 @@
+.Header {
+  padding: 0px 20px;
+  height: 50px;
+  background-color: #2b484e63;
+  display: flex;
+  align-items: center;
+  div {
+    font-size: 25px;
+    color: #ddefe3;
+    font-weight: bold;
+    margin-right: 30px;
+  }
+  button {
+    background: transparent;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    border: unset;
+    border: 2px solid #cf4950;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #cf4950;
+    font-weight: bold;
+    outline: none;
+    margin: 0px 10px;
+    &:hover {
+      background: #cf4950;
+      color: #ddefe3;
+    }
+    &:active {
+      box-shadow: 0px 0px 10px 0px #ff5b64;
+    }
+  }
+}

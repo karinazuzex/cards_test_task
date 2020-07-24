@@ -1,0 +1,44 @@
+.Content {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: calc(100% - 50px);
+  .wrapper {
+    overflow: auto;
+    overflow-x: hidden;
+    width: calc(100% - 560px);
+    height: calc(100% - 50px);
+    @media screen and (max-width: 1900px) {
+      width: calc(100% - 440px);
+    }
+    @media screen and (max-width: 1400px) {
+      width: calc(100% - 300px);
+    }
+    @media screen and (max-width: 1000px) {
+      width: 100%;
+    }
+  }
+  .sidebar {
+    overflow: auto;
+    overflow-x: hidden;
+    width: 560px;
+    height: calc(100% - 90px);
+    color: white;
+    @media screen and (max-width: 1900px) {
+      width: 440px;
+    }
+    @media screen and (max-width: 1400px) {
+      width: 300px;
+    }
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
+  }
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and (max-width: 425px) {
+      justify-content: center;
+    }
+  }
+}
